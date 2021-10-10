@@ -4,9 +4,8 @@
 
 #ifndef PROYECTO_POO_2_GO_JUGADOR_H
 #define PROYECTO_POO_2_GO_JUGADOR_H
-
+/*
 #include "Tablero.h"
-
 class Jugador{
 private:
 
@@ -19,5 +18,5 @@ public:
     void pedirMovimineto();
     void verificarMovimiento();
     void hacerMovimiento();
-};
+};*/
 #endif //PROYECTO_POO_2_GO_JUGADOR_H

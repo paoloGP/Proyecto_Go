@@ -8,16 +8,15 @@
 #include "Tablero.h"
 
 
-
-
 class Menu{
 private:
     Tablero juego_go;
 public:
+    Menu(): juego_go(){};
     void mostrarMenu();
-    void seleccionarDificultad();
-    void ingresarNombre();
-    void modoDeJuego();
+    Tipo_table dimensionesTablero();
+    string ingresarNombre();
+    colorFichas seleccionarFichas();
 };
 
 

@@ -4,6 +4,6 @@
 
 #ifndef PROYECTO_POO_2_GO_MAQUINA_H
 #define PROYECTO_POO_2_GO_MAQUINA_H
-#include "Maquina.h"
+//#include "Maquina.h"
 
 #endif //PROYECTO_POO_2_GO_MAQUINA_H
