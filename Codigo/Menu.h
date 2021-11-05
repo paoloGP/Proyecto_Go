@@ -12,7 +12,7 @@ class Menu{
 private:
     Tablero juego_go;
 public:
-    Menu(): juego_go(){};
+    Menu()=default;
     void mostrarMenu();
     Tipo_table dimensionesTablero();
     string ingresarNombre();

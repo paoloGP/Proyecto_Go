@@ -15,8 +15,9 @@ using namespace std;
 
 class Tablero{
 private:
-
-
+    Tipo_table tablero;
+    Jugador jugador;
+    Maquina maquina;
 public:
     Tablero()=default;
     Tablero(const string& nombre_jugador, colorFichas turnoJugador, colorFichas turnoMaquina, Tipo_table& _tablero);
