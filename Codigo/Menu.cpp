@@ -62,8 +62,9 @@ colorFichas Menu::seleccionarFichas() {
     do {
         cout << endl << "Ingrese color de fichas(N:Negras o B:Blancas): ";
         cin >> color;
-    }while((color != 'N' || color != 'n' ) && (color != 'B' || color !='b'));
-    return color=='N'? colorFichas::negras : colorFichas::blancas;
+        cout << " ingreso-> "<<color << endl;
+    }while(color != 'N' && color != 'B');
+    return color=='N'  ? colorFichas::negras : colorFichas::blancas;
 }
 
 Tipo_table Menu::dimensionesTablero(){

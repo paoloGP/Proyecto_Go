@@ -4,19 +4,20 @@
 
 #ifndef PROYECTO_POO_2_GO_JUGADOR_H
 #define PROYECTO_POO_2_GO_JUGADOR_H
-/*
-#include "Tablero.h"
+
+#include "Types.h"
+
 class Jugador{
 private:
-
     string nombreJugador;
-    colorFichas turnoJugador;
-    vector<vector<int>> tablero;
-    char ficha;
+    colorFichas turnoJugador = colorFichas::espera;
+    Tipo_table* tablero;
 public:
-    Jugador(string &_nombreJugador, colorFichas _turnoJugador,vector<vector<int>>& _tablero );
+    Jugador()=default;
+    Jugador(const string &_nombreJugador, colorFichas _turnoJugador, Tipo_table& _tablero);
+    /*
     void pedirMovimineto();
     void verificarMovimiento();
-    void hacerMovimiento();
-};*/
+    void hacerMovimiento();*/
+};
 #endif //PROYECTO_POO_2_GO_JUGADOR_H
