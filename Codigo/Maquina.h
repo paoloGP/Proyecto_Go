@@ -14,6 +14,8 @@ private:
 public:
     Maquina()=default;
     Maquina(colorFichas &_turnoMaquina, Tipo_table& _tablero);
+    colorFichas getTurno();
+    void pedirMovimiento();
 };
 
 #endif //PROYECTO_POO_2_GO_MAQUINA_H
