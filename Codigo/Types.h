@@ -6,6 +6,7 @@
 #define PROYECTO_GO_TYPES_H
 
 #include <iostream>
+#include <iomanip>
 #include <string>
 #include <vector>
 #include <list>

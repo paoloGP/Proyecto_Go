@@ -21,6 +21,8 @@ private:
 public:
     Tablero()=default;
     Tablero(const string& nombre_jugador, colorFichas turnoJugador, colorFichas turnoMaquina, Tipo_table& _tablero);
+    void mostrarTabla();
+    void juego();
 
 };
 

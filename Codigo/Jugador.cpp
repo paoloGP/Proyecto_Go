@@ -11,3 +11,11 @@ Jugador::Jugador(const string &_nombreJugador, colorFichas _turnoJugador, Tipo_t
     tablero = &_tablero;
     cout << "Se creo el jugador " <<  nombreJugador <<endl;
 }
+
+colorFichas Jugador::getTruno() {
+    return turnoJugador;
+}
+
+void Jugador::pedirMovimiento() {
+    cout << "pide el movimiento del jugador" << endl;
+}

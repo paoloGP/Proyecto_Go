@@ -11,12 +11,13 @@ class Jugador{
 private:
     string nombreJugador;
     colorFichas turnoJugador = colorFichas::espera;
-    Tipo_table* tablero;
+    Tipo_table* tablero = nullptr;
 public:
     Jugador()=default;
     Jugador(const string &_nombreJugador, colorFichas _turnoJugador, Tipo_table& _tablero);
+    colorFichas getTruno();
+    void pedirMovimiento();
     /*
-    void pedirMovimineto();
     void verificarMovimiento();
     void hacerMovimiento();*/
 };
