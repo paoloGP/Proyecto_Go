@@ -5,12 +5,14 @@
 #ifndef PROYECTO_POO_2_GO_MAQUINA_H
 #define PROYECTO_POO_2_GO_MAQUINA_H
 #include "Types.h"
+#include "Reglas.h"
 
 class Maquina{
 private:
     string nombre;
     colorFichas turno = colorFichas::espera;
     Tipo_table* tablero=nullptr;
+    Reglas reglas{};
 public:
     Maquina()=default;
     Maquina(colorFichas &_turnoMaquina, Tipo_table& _tablero);

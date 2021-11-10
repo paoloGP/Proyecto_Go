@@ -14,4 +14,4 @@ add_executable(Proyecto_Go
         Codigo/Menu.cpp
         Codigo/Menu.h
         Codigo/Tablero.cpp
-        Codigo/Tablero.h Codigo/Types.h)
+        Codigo/Tablero.h Codigo/Types.h Codigo/Reglas.cpp Codigo/Reglas.h)

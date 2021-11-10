@@ -13,6 +13,11 @@
 #include <deque>
 #include <type_traits>
 
+struct ficha{
+    int fila;
+    int columna;
+};
+
 using namespace std;
 using Tipo_table = vector<vector<char>>;
 const char espacioVacio = '+';
