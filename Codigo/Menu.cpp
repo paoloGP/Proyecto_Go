@@ -70,10 +70,10 @@ colorFichas Menu::seleccionarFichas() {
 Tipo_table Menu::dimensionesTablero(){
     Tipo_table tablero;
     int dimension;
-    cout << endl << "Ingrese las dimensiones del tablero(solo ingrese un numero impar del 9 al 19): ";
     do{
+        cout << endl << "Ingrese las dimensiones del tablero(solo ingrese un numero impar del 9 al 19): ";
         cin >> dimension;
-    } while((dimension<9 || dimension>19) && (dimension%2==0));
+    } while(dimension<9 || dimension>19 || dimension%2==0);
     for(int i=0; i < dimension; i++) {
         vector<char> filas;
         for (int j = 0; j < dimension; j++) {
