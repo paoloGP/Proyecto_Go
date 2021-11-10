@@ -11,6 +11,7 @@
 #include "Jugador.h"
 #include "Maquina.h"
 #include "Types.h"
+
 using namespace std;
 
 class Tablero{
